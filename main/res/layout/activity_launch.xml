@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:weightSum="1"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.5"
+        android:layout_marginTop="15dp"
+        android:layout_height="150dp"
+        android:src="@drawable/icon" />
+
+    <EditText
+        android:id="@+id/etip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="IP Address of Pc"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColorHint="@color/colorAccent"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/etport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/colorAccent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Enter Port"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#0918b7"
+        android:gravity="center"
+        android:text="Add PC"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp" />
+</LinearLayout>
+</ScrollView>

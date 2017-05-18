@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20px"
+    tools:context=".MainActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/playPauseButton"
+    android:clickable="true"
+    android:background="@android:color/holo_blue_dark"
+    android:id="@+id/mousePad"/>
+
+<Button
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Right"
+android:id="@+id/nextButton"
+android:layout_alignParentBottom="true"
+android:layout_centerHorizontal="true" />
+
+<Button
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Left"
+android:id="@+id/previousButton"
+android:layout_alignParentBottom="true"
+android:layout_alignParentLeft="true"
+android:layout_alignParentStart="true" />
+
+<Button
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Scroll"
+android:id="@+id/playPauseButton"
+android:layout_alignParentBottom="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentEnd="true" />
+
+
+
+
+    </RelativeLayout>
